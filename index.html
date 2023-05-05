@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<body>
+    <h2>We are learning HTMl Forms</h2> <br>
+<form action="" style="background-color: hsla(180, 88%, 32%, 0.705);">
+    
+<fieldset>
+<legend>Registration Form</legend>
+
+<!-- name -->
+<label style="color: darkblue;" for="Name">First Name</label><span style="color:red">*</span>
+<br>
+<input type="text"placeholder="Enter Your Name" id="Name" required>
+<br><br>
+
+<!-- email -->
+<label style="color: darkblue;"  for="mail">Email</label><span style="color: red;">*</span><br>
+<input type="email" placeholder="ex. hello@gmail.com" id="Email">
+<br><br>
+
+<!-- phone -->
+
+<label style="color: darkblue;"  for="phone number">Phone Number</label><span style="color: red;">*</span>
+<br>
+<input type="number"
+placeholder="+880-XXX-XXX"
+required>
+<br><br>
+
+<!-- password -->
+<label style="color: darkblue;"  for="Password">Password</label><span style="color: red;">*</span>
+<br>
+<input type="password"
+placeholder="*********" required
+>
+<br><br>
+<!-- select country -->
+<label style="color: darkblue;"  for="Country">Select Country</label><br>
+<select name="" id="Country">
+<option value="Bangladesh">Bangladesh<option>
+<option value="india">india<option>
+<option value="Pakistan">Pakistan<option>
+<option value="America">America<option>
+ <option value="England">England<option>
+<option value="Thailand">Thailand<option>
+</select>
+<br><br>
+<!-- Date of birth -->
+<label style="color: darkblue;"  for="Date">Date of Birth</label><span style="color: red;">*</span>
+<br>
+<input type="date" required>
+
+<!-- upload document -->
+<br><br>
+<label style="color: darkblue;"  for="file">Upload Documents</label><br>
+<input type="file">
+<br><br>
+
+<!-- radio -->
+<label style="color: darkblue;"  for="Gender">Choose Gender</label><br>
+<input type="radio" id="male" name="Gender">
+<label for="male">Male</label>
+<input type="radio" id="female" name="Gender">
+<label for="femele">female</label>
+<input type="radio" id="Others" name="Gender">
+<label for="Others">Others</label>
+<br><br>
+
+<!-- checkbox -->
+<input type="checkbox" id="checkbox" required>
+<label for="check">Agree to <a href="#"> terms and conditions</a></label>
+<br><br>
+
+<!-- button -->
+<input style="background-color: #32A99A;" type="submit" value="Submit">
+<input style="background-color: #FF363E;" type="reset" value="Reset">
+
+</fieldset>
+</form>
+</body>
+</html>
